@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+'''
+This example demonstrates use of generator and deque(double ended queue) for
+searching through text file.  The deque is used to store previous lines from
+the line where the pattern is found.
+
+'''
 import os
 from collections import deque
 
